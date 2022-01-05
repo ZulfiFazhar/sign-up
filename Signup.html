@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Sign Up</title>
+  </head>
+  <body>
+    <div class="split-screen">
+      <div class="left">
+        <section class="copy">
+          <h1>Be Creative</h1>
+          <p id="subtitle">Keep Awesome</p>
+        </section>
+      </div>
+      <div class="right">
+        <form>
+          <section class="copy">
+            <h2>Sign Up</h2>
+            <div class="login-container">
+              <p>
+                Already have an account? <a href="login.html"><strong>Log In</strong></a>
+              </p>
+            </div>
+          </section>
+          <div class="input-container name">
+            <label for="fname">Full Name</label>
+            <input type="fname" name="fname" type="text" />
+          </div>
+          <div class="input-container email">
+            <label for="email">Email</label>
+            <input type="email" name="email" type="email" />
+          </div>
+          <div class="input-container password">
+            <label for="password">Password</label>
+            <input type="password" name="password" placeholder="Must be at least 6 characters" type="password" />
+            <i class="far fa-eye-slash"></i>
+          </div>
+          <div class="input-container cta">
+            <label class="checkbox-container">
+              <input type="checkbox" />
+              <span class="checkmark"></span>
+              Sign Up for email updates.
+            </label>
+          </div>
+          <button class="signup-btn" type="submit">Sign Up</button>
+          <section class="copy legal">
+            <p>
+              <span class="small"
+                >By Continuing, you're agree to accept our <br />
+                <a href="#" target="_blank">Privacy Policy</a> &amp; <a href="#" target="_blank">Terms of Service</a>
+              </span>
+            </p>
+          </section>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
